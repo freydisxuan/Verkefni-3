@@ -142,25 +142,23 @@ main2 {
   margin-top: 1rem; 
 }
 
-/* Style the title "Vinsælir réttir" */
+
 main h3 {
   text-align: left;
 }
 
-/* Create a flexible layout for the list items */
 main .section {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Style the individual sections */
+
 main .item {
   flex: 1;
   
-  margin-right: 20px; /* Add margin between the sections */
+  margin-right: 20px;
 }
 
-/* Remove margin from the last section to avoid extra space */
 main .item:last-child {
   text-align: left;
   margin-right: 0;
@@ -214,24 +212,20 @@ table tbody tr:nth-child(odd) {
 .forsida {
   margin-top: 20px; 
   margin-bottom: 20px;
-  text-align: left; /* Align the link text to the left */
+  text-align: left; 
 }
 
-/* Style for the employee divs */
-/* Style for the employee rows */
 .employee-row {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px; /* Add spacing between rows */
+  margin-bottom: 20px;
 }
 
-/* Style for the employee divs */
 .employee {
   display: inline-block;
   text-align: left;
 }
 
-/* Style for the images */
 .employee img {
   max-width: 100%;
 }
