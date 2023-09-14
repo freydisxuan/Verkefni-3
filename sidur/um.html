@@ -3,10 +3,27 @@
   <head>
     <meta charset="utf-8" >
     <title>Um Veitingastaðinn</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <meta name="description" value=""kemur í leitarniðurstöðu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <h1>Um Veitingastaðinn</h1>
+  <header>
+    <h1><strong>Um Veitingastaðinn</strong></h1>
     <p>Við erum búin að elda mat fyrir fólk síðan 2001.</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href= "../index.html">Forsíða</a></li>
+        <li><a href= "../sidur/um.html">Um Veitingastaðinn</a></li>
+        <li><a href= "../sidur/matsedill.html">Matseðill</a></li>
+        <li><a href= "../sidur/pontun.html">Pöntunarsíða</a></li>
+      </ul>
+    </nav>
 
     
     <h3>Sagan</h3>
@@ -23,36 +40,67 @@
         </p>
       </div>
 
-    <h3>Starfsfólk</h3>
+      <h3>Starfsfólk</h3>
 
+<div class="employee-row">
+  <div class="employee">
     <h4>Anna Jónsdóttir</h4>
-    <img src="../myndir/anna.jpg" width="300" alt="Mynd af Önnu" >
+    <img src="../myndir/anna.jpg" width="300" alt="Mynd af Önnu">
     <p>Eigandi</p>
+  </div>
 
+  <div class="employee">
     <h4>Adam Adamsson</h4>
-    <img src="../myndir/adam.jpg" width="300" alt="Mynd af Adam" >
+    <img src="../myndir/adam.jpg" width="300" alt="Mynd af Adam">
     <p>Rekstrarstjóri</p>
+  </div>
+</div>
 
+<div class="employee-row">
+  <div class="employee">
     <h4>Benni</h4>
-    <img src="../myndir/benni.jpg" width="300" alt="Mynd af Benna" >
+    <img src="../myndir/benni.jpg" width="300" alt="Mynd af Benna">
     <p>Kokkur</p>
+  </div>
 
+  <div class="employee">
     <h4>Birna</h4>
-    <img src="../myndir/birna.jpg" width="300" alt="Mynd af Birnu" >
+    <img src="../myndir/birna.jpg" width="300" alt="Mynd af Birnu">
     <p>Kokkur</p>
+  </div>
+</div>
+
+      
+
+    <hr class="horizontal-line"> 
 
     <p><a href="../index.html">Aftur á forsíðu</a></p>
     <footer>
-      <h5>Opnunartími</h5>
-      <p>
-        Mánudaga til fimmtudaga 09:00–18:00 Föstudaga 10:00–22:00 Laugardaga
-        11:00–22:00 Sunnudaga Lokað
-      </p>
-      <h5>Hér erum við</h5>
-      <p>
-        Veitingastaðurinn ehf. Aðalgata 10 100 Reykjavík Sími 333-4567
-        veitingastadur@example.org
-      </p>
+      <div class="content">
+        <div class="box">
+      <h3>Opnunartími</h3>
+      <dl>
+        <dt><strong>Mánudaga til fimmtudags</strong></dt>
+        <dd>09:00–18:00</dd>
+        <dt><strong>Föstudaga</strong></dt>
+        <dd>10:00–22:00</dd>
+        <dt><strong>Laugardaga</strong></dt>
+        <dd>11:00–22:00</dd>
+        <dt><strong>Sunnudaga</strong></dt>
+        <dd>Lokað</dd>
+      </dl>
+      </div>
+      <div class="box">
+      <section>
+      <h3>Hér erum við</h3>
+      <p>Veitingastaðurinn ehf. </p>
+        <p>Aðalgata 10</p> 
+        <p>100 Reykjavík</p> 
+        <p>Sími 333-4567</p>
+        <p>veitingastadur@example.org</p>
+      </section>
+    </div>
+    </div>
     </footer>
   </body>
 </html>

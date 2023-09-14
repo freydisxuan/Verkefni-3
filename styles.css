@@ -187,3 +187,51 @@ main .item:last-child {
     vertical-align: top;
     text-align: center;
   }
+
+  th.scope-bold {
+    font-weight: fat;
+  }  
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #ffe7ae;
+}
+
+
+table tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+
+.forsida {
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  text-align: left; /* Align the link text to the left */
+}
+
+/* Style for the employee divs */
+/* Style for the employee rows */
+.employee-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Add spacing between rows */
+}
+
+/* Style for the employee divs */
+.employee {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Style for the images */
+.employee img {
+  max-width: 100%;
+}

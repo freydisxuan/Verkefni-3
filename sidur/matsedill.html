@@ -3,18 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title>Matseðill</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <meta name="description" value=""kemur í leitarniðurstöðu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   </head>
+
   <body>
+      <header>
+      <h1><strong>Matseðill</strong></h1>
+      <p>Skoðaðu það sem við höfum upp á að bjóða!</p>
+      </header>
+  
+      <nav>
+        <ul>
+          <li><a href= "../index.html">Forsíða</a></li>
+          <li><a href= "../sidur/um.html">Um Veitingastaðinn</a></li>
+          <li><a href= "../sidur/matsedill.html">Matseðill</a></li>
+          <li><a href= "../sidur/pontun.html">Pöntunarsíða</a></li>
+        </ul>
+      </nav>
+
+      <div class="container">
+      <div class="table-container">
     <table>
-      <caption>
-        <strong>Matseðill</strong>
-      </caption>
       <thead>
         <tr>
           <th scope="col">Nr.</th>
-          <th scope="col">Réttir</th>
-          <th scope="col">Lýsing</th>
-          <th scope="col">Verð</th>
+<th scope="col">Réttir</th>
+<th scope="col">Lýsing</th>
+<th scope="col">Verð</th>
+
         </tr>
       </thead>
       <tbody>
@@ -83,18 +103,39 @@
         </tr>
       </tbody>
     </table>
+  </div>
+
+  <div class="forsida">
     <p><a href="../index.html">Aftur á forsíðu</a></p>
-    <footer>
-      <h5>Opnunartími</h5>
-      <p>
-        Mánudaga til fimmtudaga 09:00–18:00 Föstudaga 10:00–22:00 Laugardaga
-        11:00–22:00 Sunnudaga Lokað
-      </p>
-      <h5>Hér erum við</h5>
-      <p>
-        Veitingastaðurinn ehf. Aðalgata 10 100 Reykjavík Sími 333-4567
-        veitingastadur@example.org
-      </p>
-    </footer>
+  </div>
+
+
+  <footer>
+    <div class="content">
+      <div class="box">
+    <h3>Opnunartími</h3>
+    <dl>
+      <dt><strong>Mánudaga til fimmtudags</strong></dt>
+      <dd>09:00–18:00</dd>
+      <dt><strong>Föstudaga</strong></dt>
+      <dd>10:00–22:00</dd>
+      <dt><strong>Laugardaga</strong></dt>
+      <dd>11:00–22:00</dd>
+      <dt><strong>Sunnudaga</strong></dt>
+      <dd>Lokað</dd>
+    </dl>
+    </div>
+    <div class="box">
+    <section>
+    <h3>Hér erum við</h3>
+    <p>Veitingastaðurinn ehf. </p>
+      <p>Aðalgata 10</p> 
+      <p>100 Reykjavík</p> 
+      <p>Sími 333-4567</p>
+      <p>veitingastadur@example.org</p>
+    </section>
+  </div>
+  </div>
+  </footer>
   </body>
 </html>
